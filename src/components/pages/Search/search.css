@@ -1,0 +1,16 @@
+.card-img {
+  width: 150px;
+}
+.searched-movie {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.movie-card {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+.movie-info{
+    margin: 1rem 0;
+}

@@ -1,0 +1,16 @@
+.botflix-title p {
+  font-size: 2rem;
+  color: var(--red);
+}
+.botflix-title {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.botflix-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.botflix-search {
+  margin: 1rem 0;
+}
