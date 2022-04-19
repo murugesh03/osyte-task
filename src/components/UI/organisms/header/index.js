@@ -1,7 +1,7 @@
 import { InputGroup } from "@blueprintjs/core";
 import React, { useState } from "react";
 import "./header.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [searchValue, setSearchValue] = useState("");
@@ -18,7 +18,10 @@ const Header = () => {
   return (
     <div className="botflix-header">
       <div className="botflix-title">
-        <p onClick={() => navigate("/")}>BotFlix</p>
+        <Link to={"/"}>
+          {" "}
+          <p>BotFlix</p>
+        </Link>
       </div>
       <div className="botflix-search">
         <InputGroup

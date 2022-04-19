@@ -6,6 +6,9 @@
   margin: 0 1rem;
   cursor: pointer;
 }
+.botflix-title a {
+  text-decoration: none;
+}
 .botflix-header {
   display: flex;
   justify-content: space-between;

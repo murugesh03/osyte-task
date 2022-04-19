@@ -18,6 +18,8 @@ const Search = () => {
 
   const getMovies = useMovieStore((state) => state.movies);
 
+  //Since i couldn't find the search api for the movies. The search would be working on the data which is available on the particular page basics. Below functin
+
   const searchMovieValues = (value) => {
     setLoading(true);
     let matchedMovies = getMovies.filter((ele) =>
